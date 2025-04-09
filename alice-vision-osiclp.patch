@@ -1,0 +1,12 @@
+diff --git a/src/aliceVision/linearProgramming/CMakeLists.txt b/src/aliceVision/linearProgramming/CMakeLists.txt
+index bc4401273..413c29903 100644
+--- a/src/aliceVision/linearProgramming/CMakeLists.txt
++++ b/src/aliceVision/linearProgramming/CMakeLists.txt
+@@ -13,6 +13,7 @@ set(aliceVision_linearProgramming_DEPS
+   Coin::Clp        # clp + solver wrapper
+   Coin::CoinUtils  # container tools
+   Coin::Osi        # generic LP
++  Coin::OsiClp
+ )
+ 
+ if (NOT MOSEK_FOUND)
